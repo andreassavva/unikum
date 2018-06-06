@@ -1,0 +1,41 @@
+.details-view {
+    min-width: 200px;
+    width: 100%;
+    padding: 50px 5vw 50px 5vw;
+}
+
+.details-view-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-view-title > a {
+    color: black;
+}
+
+.contact-image-lg {
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 50%;
+}
+
+.details-view-name {
+    margin: 0 10px;
+    flex: 1;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.times-icon {
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 10px 10px;
+}
+
+.details-view-information > h4 {
+    margin-bottom: 10px;
+}

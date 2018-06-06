@@ -1,0 +1,28 @@
+.contacts-list-container {
+    width: 100%;
+    min-width: 200px;
+    padding: 50px 5vw 50px 5vw;
+    margin: 0;
+}
+
+.contacts-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.load-more-button-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.load-more-button-container > a {
+    color: white;
+    text-decoration: none;
+}
+
+.load-more-button {
+    text-align: center;
+    background-color: #358CD6;
+    padding: 5px 40px;
+}
